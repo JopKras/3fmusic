@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#100e0c"><meta name="description" content="Farzin Fardin Fard, music producer and founder of 3F Music Dubai. Explore the studio, collaborations and 3F Radio."><title>Farzin Fardin Fard | 3F Music</title><link rel="stylesheet" href="style.css"><script type="module" src="radio.js"></script></head>
+<body>
+<header class="top"><div class="wrap nav"><a class="brand" href="#home"><img src="assets/3f-logo-white.png" alt="3F Music"></a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#discography">Discography</a><a href="#studio">Studio</a><a href="#contact">Contact</a></nav><a class="outline book" href="#contact">Book the studio <span>↗</span></a></div></header>
+<main id="home">
+<section class="hero" aria-labelledby="title"><div class="wrap hero-content"><p class="eyebrow"><span></span> INDEPENDENT RECORDING STUDIO · DUBAI</p><h1 id="title">Farzin<br>Fardin Fard <span class="sr">| 3F Music</span></h1><p class="hero-sub">Music Producer, Sound Engineer &amp; Founder of 3F Music Dubai – Over 100 Albums in the Persian Music Industry.</p><div class="actions"><button class="gold" id="listen"><span aria-hidden="true">▶</span> Listen Live to 3F Radio</button><a href="#discography" class="outline">Explore Discography <span>↘</span></a></div></div><div class="wrap hero-bottom"><span>ISFAHAN, IRAN <b>⟶</b> DUBAI, UAE</span><span>RECORDING / MIXING / MASTERING</span></div></section>
+<div class="stats"><div class="wrap stat-grid"><div><strong>100<span>+</span></strong><small>ALBUMS</small></div><div><strong>2004</strong><small>RELOCATED TO THE UAE</small></div><div><strong>24<span>/</span>7</strong><small>3F RADIO</small></div><div><strong>Dubai</strong><small>STUDIO BASE</small></div></div></div>
+<section class="wrap section about" id="about"><div><p class="eyebrow"><span></span> ABOUT FARZIN</p><h2>From Isfahan<br><em>to Dubai.</em></h2></div><div class="bio"><article><h3>The early years in Iran</h3><p>Farzin began as a young musician and sound engineer in Isfahan, where he pioneered one of Iran’s early digital recording studios.</p></article><article><h3>Building 3F Music</h3><p>He relocated to the United Arab Emirates in 2004 and founded 3F Music, taking the studio’s name from his initials.</p></article><article><h3>Vision &amp; craftsmanship</h3><p>Across recording, arrangement, mixing and mastering, his approach brings traditional Persian melodies into contemporary production.</p></article></div></section>
+<section class="catalog" id="discography"><div class="wrap section"><p class="eyebrow"><span></span> SELECTED COLLABORATIONS</p><h2>The <em>discography.</em></h2><p class="muted">Explore six collaborations from a career spanning over 100 albums. Each card plays an original instrumental demo. The credits shown are examples.</p><div class="cards" id="cards"></div></div></section>
+<section class="wrap section studio" id="studio"><div class="studio-photo" role="img" aria-label="Illustrative photograph of an analog recording console"></div><div><p class="eyebrow"><span></span> 3F MUSIC STUDIO · DUBAI</p><h2>Inside <em>the studio.</em></h2><p class="muted">A recording and production space for Persian and international artists, pairing carefully tuned acoustics with analog gear and digital workflows.</p><ul class="services"><li>Recording <span>↗</span></li><li>Mixing <span>↗</span></li><li>Mastering <span>↗</span></li><li>Full music production <span>↗</span></li></ul></div></section>
+<section class="contact" id="contact"><div class="wrap section contact-grid"><div><p class="eyebrow"><span></span> CONTACT &amp; BOOKINGS</p><h2>Let’s make<br><em>music.</em></h2><p class="muted">For artists, managers and labels. Tell us what you’re working on and what you need from the studio.</p><a class="email" href="mailto:info@3fmusic.com">info@3fmusic.com ↗</a><div class="social"><a href="https://www.linkedin.com/company/3f-productions" target="_blank" rel="noopener">LinkedIn ↗</a></div><figure class="contact-portrait"><img src="assets/farzin-fardin-fard.webp" alt="Farzin Fardin Fard" width="699" height="905" loading="lazy"><figcaption><strong>Farzin Fardin Fard</strong><small>Founder, 3F Music Dubai</small></figcaption></figure></div><form id="booking"><div class="form-row"><label>Name<input name="name" autocomplete="name" required></label><label>Email<input name="email" type="email" autocomplete="email" required></label></div><label>Service<select name="service"><option>Recording</option><option>Mixing</option><option>Mastering</option><option>Full music production</option><option>Other collaboration</option></select></label><label>Project details<textarea name="message" rows="4" required></textarea></label><button class="gold" type="submit">Open email draft <span>↗</span></button><p class="muted form-note">Opens your email app with your inquiry filled in.</p></form></div></section>
+</main>
+<footer class="wrap footer"><a class="brand" href="#home"><b>3F</b><span>MUSIC<small>DUBAI</small></span></a><p>© 3F Music · Dubai, UAE</p><a href="#home">Back to top ↑</a></footer>
+<aside class="player" aria-label="3F Music Radio"><div class="wrap player-grid"><div class="station"><div class="station-icon" aria-hidden="true">≋</div><div><strong>3F Music Radio</strong><small id="state"><i></i> DEMO RADIO</small></div></div><div class="controls"><button id="play" class="play" aria-label="Play">▶</button><button id="next" aria-label="Next track" title="Next track"><svg class="skip-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true" focusable="false"><path d="M4 4l12 8-12 8z M17 4h3v16h-3z"/></svg></button></div><div class="track" aria-live="polite"><strong id="track-title"></strong><small id="track-detail"></small></div><div class="wave" aria-hidden="true"></div><label class="volume"><span aria-hidden="true">◖))</span><input id="volume" type="range" min="0" max="1" step="0.01" value=".7" aria-label="Volume"></label><select id="mood" aria-label="Radio channel"><option value="all">All channels</option><option value="pop">Persian Pop Classics</option><option value="ballad">Emotional Ballads</option><option value="fusion">Instrumental &amp; Fusion</option></select><button id="expand-radio" type="button" aria-haspopup="dialog" aria-label="Expand radio player" title="Expand radio player">⤢</button></div><audio id="audio" preload="none"></audio></aside>
+<dialog id="radio-view" aria-labelledby="radio-view-title">
+  <header class="radio-view-header">
+    <img src="assets/3f-logo-white.png" alt="3F Music">
+    <div id="radio-view-title">3F Music Radio</div>
+    <button id="close-radio" type="button" aria-label="Close full-screen player" title="Close full-screen player" autofocus>×</button>
+  </header>
+  <div class="radio-view-content">
+    <div class="radio-art" aria-hidden="true"><img src="assets/3f-logo-white.png" alt=""></div>
+    <div class="radio-view-controls">
+      <p class="eyebrow" id="full-state">DEMO RADIO</p>
+      <h2 id="full-track" aria-live="polite"></h2>
+      <p id="full-detail"></p>
+      <div id="full-timeline">
+        <input id="seek" type="range" min="0" max="1" value="0" step="0.1" aria-label="Playback position">
+        <div class="radio-times"><span id="elapsed">0:00</span><span id="duration">0:00</span></div>
+      </div>
+      <div class="full-transport">
+        <button id="full-prev" type="button" aria-label="Previous track" title="Previous track"><svg class="skip-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20 4L8 12l12 8z M4 4h3v16H4z"/></svg></button>
+        <button id="full-play" type="button" aria-label="Play">▶</button>
+        <button id="full-next" type="button" aria-label="Next track" title="Next track"><svg class="skip-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true" focusable="false"><path d="M4 4l12 8-12 8z M17 4h3v16h-3z"/></svg></button>
+      </div>
+      <div class="full-settings">
+        <select id="full-mood" aria-label="Radio channel"></select>
+        <label>Volume <input id="full-volume" type="range" min="0" max="1" step=".01" value=".7"></label>
+      </div>
+    </div>
+  </div>
+</dialog>
+</body></html>
